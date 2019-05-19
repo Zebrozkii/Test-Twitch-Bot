@@ -16,3 +16,10 @@ var options = {
 };
 var client = new tmi.client(options);
 client.connect();
+client.on('chat', function(channel, user, message, self){
+  client.action("zebrozkii ", user ['display-name'] + " You are a Trash Can");
+});
+
+client.on('connected', function (address , port){
+ client.action("zebrozkii", "Hello Im Testing my bot");
+});
