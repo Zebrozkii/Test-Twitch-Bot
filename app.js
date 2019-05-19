@@ -9,8 +9,8 @@ var options = {
     reconnect: true
   },
   identity: {
-    username: "Jimbooby-Bot",
-    password: "oauth:hqhd39eblwslorgtu4dklllzx77j10"
+    username: "JimbobsBot",
+    password: "oauth:6hf0e0mgiyjbqmopqdlfq7r59f2h4x"
   },
   channels: ["Zebrozkii"]
 };
