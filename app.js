@@ -10,9 +10,9 @@ var options = {
   },
   identity: {
     username: "JimbobsBot",
-    password: "oauth:6hf0e0mgiyjbqmopqdlfq7r59f2h4x"
+    password: "oauth:spxhtz95thjijvfrc9ro3bjbn2l9qb"
   },
-  channels: ["Zebrozkii"]
+  channels: ["zebrozkii"]
 };
 var client = new tmi.client(options);
 client.connect();
