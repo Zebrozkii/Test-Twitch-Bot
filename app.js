@@ -41,6 +41,21 @@ client.on("chat", (channel, user, message, self)=>{
     client.action("zebrozkii","https://na.op.gg/summoner/userName=zebrozkii");
   }
 });
+client.on("chat", (channel, user, message, self)=>{
+  if(message=="!twitter"){
+    client.action("zebrozkii","https://twitter.com/zebrozkii");
+  }
+});
+client.on("chat", (channel, user, message, self)=>{
+  if(message=="!youtube"){
+    client.action("zebrozkii","https://www.youtube.com/user/Zebrozkii");
+  }
+});
+
+setInterval(()=>{
+  client.say("zebrozkii", "Thanks for stopping by dont forget to follow the stream :)");
+}, 3600000);
+
 
 //bot commands end
 

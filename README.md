@@ -5,7 +5,11 @@
  A bot for a twitch channel
 
 ## Command List
-* !OP - shows op.gg link for league of legends.
+* !op - shows op.gg link for league of legends.
+* !twitter - links my my twitter.
+* !youtube - links to my youtube.
+* Every 1 hour a message apears to let remind people to follow the stream.
+
 
 
 
