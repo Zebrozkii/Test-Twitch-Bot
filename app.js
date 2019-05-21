@@ -1,3 +1,5 @@
+//bot setup
+
 var tmi = require('tmi.js');
 
 var options = {
@@ -16,6 +18,10 @@ var options = {
 };
 var client = new tmi.client(options);
 client.connect();
+//bot setup end
+
+
+//bot commands start
 client.on('chat', function(channel, user, message, self){
   // client.action("zebrozkii ", user ['display-name'] + " You are a Trash Can");
 });
@@ -31,8 +37,10 @@ client.on("chat", (channel, user, message, self)=>{
 });
 
 client.on("chat", (channel, user, message, self)=>{
-  if(message=="!OP"){
+  if(message=="!op"){
     client.action("zebrozkii","https://na.op.gg/summoner/userName=zebrozkii");
   }
 });
+
+//bot commands end
 

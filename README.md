@@ -18,8 +18,7 @@
 * javascript
 * Node.js
 * Webpack
-* jasmine
-* karma
+
 
 ### GitHub Pages link
 https://github.com/Zebrozkii/Galactic-Age-Calculator
