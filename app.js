@@ -30,3 +30,9 @@ client.on("chat", (channel, user, message, self)=>{
   }
 });
 
+client.on("chat", (channel, user, message, self)=>{
+  if(message=="!OP"){
+    client.action("zebrozkii","https://na.op.gg/summoner/userName=zebrozkii");
+  }
+});
+
