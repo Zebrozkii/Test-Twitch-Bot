@@ -56,6 +56,18 @@ setInterval(()=>{
   client.say("zebrozkii", "Thanks for stopping by dont forget to follow the stream :)");
 }, 3600000);
 
+client.on("chat", (channel, user, message, self)=>{
+  if(message=="!commands"){
+    client.action("zebrozkii","!youtube , !twitter , !op, !hello");
+  }
+});
+client.on("chat", (channel,user, message, self)=>{
+  if(message=="!hello"){
+    client.action("zebrozkii", "Hello! Welcome to the stream hope you enjoy your stay. Remember to follow the rules ;)");
+  }
+});
+
+
 
 //bot commands end
 
